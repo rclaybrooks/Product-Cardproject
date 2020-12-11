@@ -1,4 +1,4 @@
- *,
+*,
 *::before,
 *::after {
   padding: 0;
@@ -28,11 +28,13 @@ img {
   overflow:hidden;
   box-shadow: 0 5px 40px -20px
     rgba(0,0,0,.4);
+ 
 }
 header {
   padding: 10px;
   display: flex;
   align-items: center;
+ 
 }
 
 #badge{
@@ -69,9 +71,20 @@ footer p.faded {
   line-height: 1.5;
 }
 
-del{
+#wrapper{
+  width:200px;
+  border:30px black;
+  overflow:hidden;
+}
+
+#first{
+  width:65px;
+  float:left;
   color:orange;
 }
-h4{
-  color:orange;
+#second{
+  color: orange;
+  float: left;
+  font-weight:bold;
+  font-size: 18px;
 }
